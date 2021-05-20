@@ -103,6 +103,14 @@
               <li class="nav__item"><a href="{{route('public.infographic.list')}}" class="nav__item-link {{ Request::routeIs('public.infographic.*') ? 'active' : '' }}">Info Grafis</a></li>
             </ul><!-- /.dropdown-menu -->
           </li><!-- /.nav-item -->
+          <li class="nav__item with-dropdown">
+            <a href="#" data-toggle="dropdown" class="dropdown-toggle nav__item-link">Sosial Media</a>
+            <ul class="dropdown-menu">
+              <li class="nav__item"><a href="{{route('public.fb.list')}}" class="nav__item-link {{ Request::routeIs('public.fb.*') ? 'active' : '' }}">Facebook</a></li>
+              <li class="nav__item"><a href="{{route('public.ig.list')}}" class="nav__item-link {{ Request::routeIs('public.video.*') ? 'active' : '' }}">Instagram</a></li>
+              <li class="nav__item"><a href="{{route('public.yt.list')}}" class="nav__item-link {{ Request::routeIs('public.infographic.*') ? 'active' : '' }}">Youtube</a></li>
+            </ul><!-- /.dropdown-menu -->
+          </li><!-- /.nav-item -->
           <li class="nav__item">
             <a href="{{route('public.contact')}}" class="nav__item-link {{ Request::routeIs('public.contact') ? 'active' : '' }}">Kontak Kami</a>
           </li><!-- /.nav-item -->

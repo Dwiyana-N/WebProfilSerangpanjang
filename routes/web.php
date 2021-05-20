@@ -26,8 +26,12 @@ Route::namespace('Frontend')->group(static function () {
   Route::get('/wisata/hotel', 'HotelController@index')->name('public.hotel.list');
   Route::get('/wisata/rumah-makan', 'RMController@index')->name('public.rm.list');
   
-//   Route::get('/sosial-media', 'SosmedController@index')->name('public.rm.list');
-//   Route::get('/sosial-media/{slug}', 'SosmedController@show')->name('public.rm.detail');
+  Route::get('/sosial-media/facebook', 'FacebookController@index')->name('public.fb.list');
+  Route::get('/sosial-media/facebook/{slug}', 'FacebookController@show')->name('public.fb.detail');
+  Route::get('/sosial-media/instagram', 'InstagramController@index')->name('public.ig.list');
+  Route::get('/sosial-media/instagram/{slug}', 'InstagramController@show')->name('public.ig.detail');
+  Route::get('/sosial-media/youtube', 'YoutubeController@index')->name('public.yt.list');
+  Route::get('/sosial-media/youtube/{slug}', 'YoutubeController@show')->name('public.yt.detail');
   
   Route::get('/kontak-kami', 'HomeController@contactUs')->name('public.contact');
   Route::post('/kontak-kami', 'HomeController@sendMessage')->name('public.sendmessage');

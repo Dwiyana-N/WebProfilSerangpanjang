@@ -25,102 +25,27 @@
     <section id="fancyboxLayout1" class="fancybox-layout1 text-center pt-100">
       <div class="container">
         <div class="row">
-          <div class="col-sm-12 col-md-12 col-lg-6 offset-lg-3">
-            <div class="heading heading-3 mb-60">
-              <h2 class="heading__title">Best Business Solutions </h2>
-              <p class="heading__desc">We are York, our strategists will help you set an objective and choose your
-                tools, developing a plan that is custom-built for your business. </p>
-              <div class="divider__line"></div>
-            </div>
-          </div><!-- /.col-lg-6 -->
-        </div><!-- /.row -->
-        <div class="row mb-80 mb-30-xs mb-30-sm">
-          <!-- fancybox item #1 -->
-          <div class="col-sm-12 col-md-4 col-lg-4">
-            <div class="fancybox-item">
-              <div class="fancybox__icon">
-                <i class="icon-desktop"></i>
-              </div><!-- /.fancybox-icon -->
-              <div class="fancybox__content">
-                <h4 class="fancybox__title">Development</h4>
-                <p class="fancybox__desc">The development of your next business plan will be executed by a brilliant
-                  team who will indicate your grand success.</p>
-                <div class="dotted__line"><span></span></div>
-              </div><!-- /.fancybox-content -->
-            </div><!-- /.fancybox-item -->
-          </div><!-- /.col-lg-4 -->
-          <!-- fancybox item #2 -->
-          <div class="col-sm-12 col-md-4 col-lg-4">
-            <div class="fancybox-item">
-              <div class="fancybox__icon">
-                <i class="icon-layers"></i>
-              </div><!-- /.fancybox-icon -->
-              <div class="fancybox__content">
-                <h4 class="fancybox__title">Web Design</h4>
-                <p class="fancybox__desc">What separates York agency from all other web design agencies is the ability
-                  to offer the most User Friendly Experience.</p>
-                <div class="dotted__line"><span></span></div>
-              </div><!-- /.fancybox-content -->
-            </div><!-- /.fancybox-item -->
-          </div><!-- /.col-lg-4 -->
-          <!-- fancybox item #3 -->
-          <div class="col-sm-12 col-md-4 col-lg-4">
-            <div class="fancybox-item">
-              <div class="fancybox__icon">
-                <i class="icon-strategy"></i>
-              </div><!-- /.fancybox-icon -->
-              <div class="fancybox__content">
-                <h4 class="fancybox__title">Brand Identity</h4>
-                <p class="fancybox__desc">Your logo is the very heart of identity, let our designers deliver the perfect
-                  dreamy design for your new business identity.</p>
-                <div class="dotted__line"><span></span></div>
-              </div><!-- /.fancybox-content -->
-            </div><!-- /.fancybox-item -->
-          </div><!-- /.col-lg-4 -->
-        </div><!-- /.row -->
-        <div class="row">
-          <!-- fancybox item #4 -->
-          <div class="col-sm-12 col-md-4 col-lg-4">
-            <div class="fancybox-item">
-              <div class="fancybox__icon">
-                <i class="icon-video"></i>
-              </div><!-- /.fancybox-icon -->
-              <div class="fancybox__content">
-                <h4 class="fancybox__title">Photography</h4>
-                <p class="fancybox__desc">Photography is the core of everything we do, photography equipment, camera and
-                  reviews, photography articles.</p>
-                <div class="dotted__line"><span></span></div>
-              </div><!-- /.fancybox-content -->
-            </div><!-- /.fancybox-item -->
-          </div><!-- /.col-lg-4 -->
-          <!-- fancybox item #5 -->
-          <div class="col-sm-12 col-md-4 col-lg-4">
-            <div class="fancybox-item">
-              <div class="fancybox__icon">
-                <i class="icon-layers"></i>
-              </div><!-- /.fancybox-icon -->
-              <div class="fancybox__content">
-                <h4 class="fancybox__title">Graphic Design</h4>
-                <p class="fancybox__desc">What separates York agency from all other web design agencies is the ability
-                  to offer the most User Friendly Experience.</p>
-                <div class="dotted__line"><span></span></div>
-              </div><!-- /.fancybox-content -->
-            </div><!-- /.fancybox-item -->
-          </div><!-- /.col-lg-4 -->
-          <!-- fancybox item #6 -->
-          <div class="col-sm-12 col-md-4 col-lg-4">
-            <div class="fancybox-item">
-              <div class="fancybox__icon">
-                <i class="icon-mobile"></i>
-              </div><!-- /.fancybox-icon -->
-              <div class="fancybox__content">
-                <h4 class="fancybox__title">Mobile Apps</h4>
-                <p class="fancybox__desc">Increase social reach and productivity with our Awesome App Directory, with a
-                  big collection of famous applications..</p>
-                <div class="dotted__line"><span></span></div>
-              </div><!-- /.fancybox-content -->
-            </div><!-- /.fancybox-item -->
-          </div><!-- /.col-lg-4 -->
+          
+          <!-- Start Styles. Move the 'style' tags and everything between them to between the 'head' tags -->
+          <style type="text/css">
+          .myTable { width:400px;background-color:#eee;border-collapse:collapse; }
+          .myTable th { background-color:#000;color:white;width:50%; }
+          .myTable td, .myTable th { padding:5px;border:1px solid #000; }
+          </style>
+          <!-- End Styles -->
+          <table class="myTable">
+            <tr>
+              <th>Table Header</th><th>Table Header</th>
+            </tr>
+            <tr>
+              <td>Table cell 1</td><td>Table cell 2</td>
+            </tr>
+            <tr>
+              <td>Table cell 3</td><td>Table cell 4</td>
+            </tr>
+          </table>
+
+
         </div><!-- /.row -->
       </div><!-- /.container -->
     </section><!-- /. fancybox layout 1 -->

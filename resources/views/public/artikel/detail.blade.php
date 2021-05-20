@@ -61,15 +61,9 @@
         </div><!-- /.widget-content -->
         <div class="blog-share">
           <h5 class="blog__share-title">Share This Article :</h5>
-          <!-- <div class="social__icons"> -->
-            <!-- <a href="#"><i class="fa fa-facebook"></i></a> -->
-            <!-- <a href="#"><i class="fa fa-twitter"></i></a> -->
-            <!-- <a href="#"><i class="fa fa-google-plus"></i></a> -->
-            <!-- <a href="#"><i class="fa fa-linkedin"></i></a> -->
-          <!-- </div> -->
           <div class="sharethis-inline-share-buttons" style="z-index:10"></div>
         </div><!-- /.blog-share -->
-        {{-- <div class="related-posts">
+        <div class="related-posts">
           <h5 class="blog__widget-title">related posts</h5>
           <div class="row">
             <!-- Blog Item #1 -->
@@ -137,7 +131,7 @@
         <div class="blog-widget blog-comments">
           <h5 class="blog__widget-title">Komentar</h5>
           <ul class="comments-list">
-            @if(count($comment)<1)
+            @if(count($comment)
               <span> - Belum ada komentar - </span>
             @else
             @foreach($comment as $text)
@@ -244,6 +238,27 @@
               </ul>
             </div><!-- /.widget-content -->
           </div><!-- /.widget-Tags -->
+          <div class="widget widget-posts">
+            <h5 class="widget__title">Postingan Social Media</h5>
+            <div class="widget__content">
+              <!-- post item -->
+              @if(count($postingan) > 0)
+                @foreach ($postingan as $list)
+                  <div class="widget-post-item">
+                    <div class="widget__post-img">
+                      <a href="#"><img src="{{($list->img)? asset('/storage/agenda/images/'.$list->img) : asset('backend/img/default.png')}}"></a>
+                    </div><!-- /.widget-post-img -->
+                    <div class="widget__post-content">
+                      <span class="widget__post-date">{{\Carbon\Carbon::parse($list->created_at)->translatedFormat('d F Y')}}</span>
+                      <h6 class="widget__post-title"><a href="#">{{$list->title}}</a></h6>
+                    </div><!-- /.widget-post-content -->
+                  </div><!-- /.widget-post-item -->
+                @endforeach
+              @else
+                - Belum ada data -
+              @endif
+            </div><!-- /.widget-content -->
+          </div><!-- /.widget-posts -->
         </aside><!-- /.sidebar -->
       </div><!-- /.col-lg-4 -->
 

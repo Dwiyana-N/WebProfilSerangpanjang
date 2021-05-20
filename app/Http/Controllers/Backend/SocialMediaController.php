@@ -27,7 +27,7 @@ class SocialMediaController extends Controller
         return view('admin.sosmed.create');
       }catch(\Exception $e){
         $error = $e->getMessage();
-        return redirect()->route('admin.socmedlist')->with(['error' => $error]);
+        return redirect()->route('admin.socmed.list')->with(['error' => $error]);
       }
     }
 
