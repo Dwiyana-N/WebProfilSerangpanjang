@@ -7,7 +7,7 @@ use Artisan;
 
 //group route for "public frontend"
 Route::namespace('Frontend')->group(static function () {
-  Route::get('/', 'HomeController@index')->name('public.homepage');
+  Route::get('/beranda', 'HomeController@index')->name('public.homepage');
   //Route::get('/profil/{slug}', 'HomeController@profil')->name('public.profile');
 
   Route::get('/profil/unit-kerja', 'HomeController@field')->name('public.field');
@@ -25,6 +25,9 @@ Route::namespace('Frontend')->group(static function () {
   Route::get('/wisata/sarana-olahraga', 'SportController@index')->name('public.sport.list');
   Route::get('/wisata/hotel', 'HotelController@index')->name('public.hotel.list');
   Route::get('/wisata/rumah-makan', 'RMController@index')->name('public.rm.list');
+  
+//   Route::get('/sosial-media', 'SosmedController@index')->name('public.rm.list');
+//   Route::get('/sosial-media/{slug}', 'SosmedController@show')->name('public.rm.detail');
   
   Route::get('/kontak-kami', 'HomeController@contactUs')->name('public.contact');
   Route::post('/kontak-kami', 'HomeController@sendMessage')->name('public.sendmessage');
@@ -48,6 +51,9 @@ Route::prefix('admin')->namespace('Backend')->group(function () {
     //group route with middleware "auth" for "admin"
     Route::group(['middleware' => ['auth']], function() {
         //route dashboard
+        //login
+
+        Route::get('/login', [LoginController::class, 'formLogin'])->name('admin.login');
         Route::get('/dashboard', [DashboardController::class, 'index'])->name('admin.dashboard.index');
         //route Agenda
         Route::get('/agenda', [AgendaController::class, 'index'])->name('admin.agenda.list');

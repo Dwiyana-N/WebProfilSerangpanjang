@@ -59,7 +59,7 @@
               </li>
               <li class="list-group-item list-group-item-action d-flex justify-content-between align-items-start">
                 <div class="list-content col-md-4 col-sm-4">
-                  <img src="#" class="img-fluid img-thumbnail">
+                  <img src="{{asset('assets/img/Desa Cintamekar.jpg')}}" class="img-fluid">
                 </div>
                 <div class="ms-2 me-auto">
                   <div class="d-flex w-100 justify-content-between">

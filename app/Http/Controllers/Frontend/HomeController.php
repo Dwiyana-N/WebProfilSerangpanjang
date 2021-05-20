@@ -29,7 +29,7 @@ class HomeController extends Controller
 
     public function index(){
       try{
-        return view('public.index');
+        return view('public.beranda.index');
       }catch(\Exception $e){
         $error = $e->getMessage();
         return redirect()->route('public.homepage')->with(['error' => $error]);
@@ -82,58 +82,5 @@ class HomeController extends Controller
         $error = $e->getMessage();
         return redirect()->back()->with(['error' => $error]);;
       }
-    }
-
-    public function history() {
-      return view('public.profil.sejarah');
-    }
-
-    public function vision() {
-      return view('public.profil.visimisi');
-    }
-
-    public function topografi() {
-      return view('public.profil.topografi');
-    }
-
-    public function maps() {
-      return view('public.profil.peta');
-    }
-    
-    public function village() {
-      return view('public.pemerintahan.village');
-    }
-
-    public function uptd() {
-      return view('public.pemerintahan.uptd');
-    }
-
-    public function vacation() {
-      // try{
-      //   $announcement = Announcement::where('status', 'show')->latest()->limit(5)->get();
-      //   $article = Article::where('status', 'show')->latest()->limit(5)->get();
-      //   $agendas = Agenda::where('status', 'show')->latest()->limit(5)->get();
-      //   return view('public.wisata.objek', compact('article', 'agenda', 'announcement'));
-      // }catch(\Exception $e){
-      //   $error = $e->getMessage();
-      //   return redirect()->back()->with(['error'=>$error]);
-      // }
-
-      return view('public.wisata.objek');
-    }
-    public function culture() {
-      return view('public.wisata.culture');
-    }
-
-    public function sport() {
-      return view('public.wisata.sport');
-    }
-
-    public function hotel() {
-      return view('public.wisata.hotel');
-    }
-
-    public function rm() {
-      return view('public.wisata.makanan');
     }
 }

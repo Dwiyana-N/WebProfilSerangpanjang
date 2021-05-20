@@ -74,7 +74,7 @@ return [
     |
     */
 
-    'prefix' => 'rahasia',
+    'prefix' => '',
 
     'domain' => null,
 

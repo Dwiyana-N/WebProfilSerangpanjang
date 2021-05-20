@@ -1,26 +1,31 @@
 <?php
 
-namespace App\Http\Controllers\Auth;
+namespace App\Http\Controllers\Backend;
 
 use App\Http\Controllers\Controller;
 use App\Providers\RouteServiceProvider;
 use Illuminate\Http\Request;
-use Illuminate\Foundation\Auth\AuthenticatesUsers;
+// use Illuminate\Foundation\Auth\AuthenticatesUsers;
 use Spatie\Permission\Models\Role;
 use Spatie\Permission\Models\Permission;
 
 class LoginController extends Controller
 {
 
-    use AuthenticatesUsers;
+    // use AuthenticatesUsers;
 
     protected $redirectTo = RouteServiceProvider::HOME;
 
-    public function __construct()
-    {
-        $this->middleware('guest')->except('logout');
-    }
+    // public function __construct()
+    // {
+    //     $this->middleware('guest')->except('logout');
+    // }
 
+    public function formLogin()
+    {
+        return view('');
+    }
+    
     public function login(Request $request){
         $this->validate($request, [
             'username' => 'required|string',

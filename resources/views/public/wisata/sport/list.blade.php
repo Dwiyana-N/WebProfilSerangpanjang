@@ -37,9 +37,8 @@
                   <p class="mb-1">
                     Alamat :-<br>
                     Waktu Buka :-<br>
-                    Kontak :-
                   </p>
-                  <a href="https://goo.gl/maps/GnV9raoRudBNQHxd8" target="_blank">Lihat di Google Maps</a>
+                  <a href="#" target="_blank">Lihat di Google Maps</a>
                 </div>
               </li>
             </div>
