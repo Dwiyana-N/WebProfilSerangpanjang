@@ -19,7 +19,7 @@
                 <div class="col-sm-12 col-md-12 col-lg-10 offset-lg-1">
                   <div class="slide__content">
                     <!-- <div class="heading__shape heading__shape-white"></div> -->
-                    <h2 class="slide__title color-white">Selamat Datang! </h2>
+                    <h2 class="slide__title color-white">Selamat Datang </h2>
                     <div class="heading__desc">
                     <p>
                       <strong>PORTAL INFORMASI PEMERINTAHAN KECAMATAN SERANGPANJANG</strong>
