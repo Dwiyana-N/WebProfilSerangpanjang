@@ -25,7 +25,7 @@
                       <strong>PORTAL INFORMASI PEMERINTAHAN KECAMATAN SERANGPANJANG</strong>
                     </p>
                     </div>
-                    <hr class="style mb-5"> 
+                    <!-- <hr class="style mb-5">  -->
                   </div><!-- /.slide-content -->
                 </div><!-- /.col-lg-10 -->
               </div><!-- /.row -->
@@ -41,7 +41,7 @@
                   <div class="slide__content">
                     <!-- <div class="heading__shape heading__shape-white"></div> -->
                     <h2 class="slide__title color-white">Kecamatan Serangpanjang</h2>
-                    <hr class="style mb-5"> 
+                    <!-- <hr class="style mb-5">  -->
                     <a href="#" class="btn btn__rounded btn__white">Kontak Kami</a>
                   </div><!-- /.slide-content -->
                 </div><!-- /.col-lg-10 -->
@@ -85,7 +85,49 @@
       <section id="content-desktop" class="wow fadeInUp animated" style="visibility: visible; animation-name: fadeInUp;">
         <div class="container py-5">
           <div class="row">
-            
+            <div class="col-lg-12 col-sm-12">
+              <ul class="nav nav-pills mb-3 justify-content-center" id="pills-tab" role="tablist">
+                <li class="nav-item">
+                  <a class="nav-link active" id="pills-terkini-tab" data-toggle="pill" href="#pills-terkini" role="tab" aria-controls="pills-terkini" aria-selected="true">
+                    <h5>Terkini</h5>
+                  </a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" id="pills-umum-tab" data-toggle="pill" href="#pills-umum" role="tab" aria-controls="pills-umum" aria-selected="false">
+                    <h5>Umum</h5>
+                  </a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" id="pills-sosial-tab" data-toggle="pill" href="#pills-sosial" role="tab" aria-controls="pills-sosial" aria-selected="false">
+                    <h5>Liputan Sosial</h5>
+                  </a>
+                </li>
+              </ul>
+              <div class="tab-content text-white" id="pills-tabContent">
+                <div class="tab-pane fade show active" id="pills-terkini" role="tabpanel" aria-labelledby="pills-terkini-tab">
+                  <div class="row">
+                    <div class="col-lg-6">
+                      <div class="item-home">
+                        <!-- <img src="#" class="img-fluid"> -->
+                      </div>
+                    </div>
+                    <div class="col-lg-6">
+                      <div class="item-home">
+                        <small>
+                          <i class="fa fa-clock"></i>
+                            <!-- waktu -->
+                          <i class="fa fa-eye"></i>
+                            <!-- dilihat -->
+                        </small>
+                          <h5><!-- judul --></h5>
+                            <p class="text-white text-justify py-3"></p>
+                            <p><!-- isi --><!-- waktu --></p>
+                            <p></p>
+                              <!-- <a class="text-success" href="#">Selengkapnya...</a> -->
+                  </div>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </section>
