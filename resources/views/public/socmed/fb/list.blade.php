@@ -26,7 +26,7 @@
 
         <div class="col-sm-12 col-md-12 col-lg-8">
             <div class="">
-                
+            <a class="twitter-timeline" href="https://twitter.com/Dwynnggrh?ref_src=twsrc%5Etfw">Tweets by Dwynnggrh</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
             </div>
           </div>
 

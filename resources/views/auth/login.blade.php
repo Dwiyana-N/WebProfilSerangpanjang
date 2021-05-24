@@ -4,7 +4,7 @@
 @section('content')
 <div class="login-box">
     <div class="login-logo">
-      <strong><a href="#"><b>O P D Profil</b><br>Kabupaten Subang</a></strong>
+      <strong><a href="#"><b>Serangpanjang</b><br>Kabupaten Subang</a></strong>
     </div>
     <!-- /.login-logo -->
     <div class="card">

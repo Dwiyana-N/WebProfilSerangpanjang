@@ -41,6 +41,21 @@
                   <a href="#" target="_blank">Lihat di Google Maps</a>
                 </div>
               </li>
+              <li class="list-group-item list-group-item-action d-flex justify-content-between align-items-start">
+                <div class="list-content col-md-4 col-sm-4">
+                  <img src="{{asset('assets/img/sirkuit.png')}}" class="img-fluid">
+                </div>
+                <div class="ms-2 me-auto">
+                  <div class="d-flex w-100 justify-content-between">
+                    <h5 class="mb-1">Sirkuit</h5>
+                  </div>
+                  <p class="mb-1">
+                    Alamat :-<br>
+                    Waktu Buka :-<br>
+                  </p>
+                  <a href="#" target="_blank">Lihat di Google Maps</a>
+                </div>
+              </li>
             </div>
         </div>
 

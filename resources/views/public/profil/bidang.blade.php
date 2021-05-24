@@ -35,7 +35,7 @@
           <!-- End Styles -->
           <table class="myTable">
             <tr>
-              <th>Table Header</th><th>Table Header</th>
+              <th>Nama Pegawai</th><th>Jabatan</th>
             </tr>
             <tr>
               <td>Table cell 1</td><td>Table cell 2</td>
