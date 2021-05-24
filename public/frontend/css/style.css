@@ -164,6 +164,20 @@ select {
   background-color: transparent;
 }
 
+.mytable {
+  background-color:#eee;
+  border-collapse:collapse;
+}
+.mytable th {
+  background-color:#000;
+  color:white;
+}
+.mytable td, 
+.mytable th {
+  padding:10px;
+  border:1px solid #000;
+}
+
 @media only screen and (min-width: 320px) and (max-width: 575px) {
   .wrapper-boxed {
     padding: 0 10px 10px 10px;

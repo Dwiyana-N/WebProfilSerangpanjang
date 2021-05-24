@@ -25,25 +25,21 @@
     <section id="fancyboxLayout1" class="fancybox-layout1 text-center pt-100">
       <div class="container">
         <div class="row">
-          
-          <!-- Start Styles. Move the 'style' tags and everything between them to between the 'head' tags -->
-          <style type="text/css">
-          .myTable { width:400px;background-color:#eee;border-collapse:collapse; }
-          .myTable th { background-color:#000;color:white;width:50%; }
-          .myTable td, .myTable th { padding:5px;border:1px solid #000; }
-          </style>
-          <!-- End Styles -->
-          <table class="myTable">
-            <tr>
-              <th>Nama Pegawai</th><th>Jabatan</th>
-            </tr>
-            <tr>
-              <td>Table cell 1</td><td>Table cell 2</td>
-            </tr>
-            <tr>
-              <td>Table cell 3</td><td>Table cell 4</td>
-            </tr>
-          </table>
+          <div class="col-lg-12 col-sm-12">
+            <div class="mytable">
+              <table class="table table-bordered">
+                <tr>
+                  <th>Nama Pegawai</th><th>Jabatan</th>
+                </tr>
+                <tr>
+                  <td>Table cell 1</td><td>Table cell 2</td>
+                </tr>
+                <tr>
+                  <td>Table cell 3</td><td>Table cell 4</td>
+                </tr>
+              </table>
+            </div>
+          </div>
 
 
         </div><!-- /.row -->
